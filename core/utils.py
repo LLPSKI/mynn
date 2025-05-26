@@ -57,8 +57,3 @@ def im2col(input_data: np.ndarray,
                 col[n * out_h * out_w + w * out_w + h] = patch.reshape(-1)
     
     return col
-
-if __name__ == '__main__':
-    pass
-else:
-    print("mynn.core.utils here!")
